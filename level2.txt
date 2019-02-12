@@ -1,0 +1,61 @@
+Level 2 Process¨
+
+In your own words, describe what JavaScript Code Style is.
+Javascript code is essentially when you create events for different elements. 
+
+What is a Regular Expression?
+Regular expression searches for a set of symbols in a string. /a-zA-z/ test, if a string has all the letters lowercase and uppercase. 
+
+What does the .random() method do?
+Return a random number between 0 (inclusive) and 1 (exclusive):
+
+What does the .sort() method do?
+The sort() method sorts the items of an array.
+The sort order can be either alphabetic or numeric, and either ascending (up) or descending (down).
+
+What does the .reverse() method do?
+Reverse the order of the elements in an array
+L
+ist two examples of bad JavaScript code.
+Minimize the use of global variables
+Not minimizing unnecessary characters in a from source code can be seen as bad Javascript
+
+
+Example 1
+function validateForm(){
+   if (verifyuserName()){
+       if (verifyuserLastName()){
+           if (verifyuserTelephone()){
+               if (verifyuserEmail()){
+                   return alert("the username and password is valid");
+               }else return alert("FALSE this is an unusername and epost");
+           }else return alert("FALSE this is an unusername and email");
+       }else return alert("FALSE this is an unusername and email");
+   }else return alert("FALSE this is an unusername and email");
+Istead of: 
+function validateForm(){
+  if (verifyuserName() && verifyuserLastName() && verifyuserTelephone() &&  verifyuserEmail()){
+   return (alert("its valid"));
+  }
+  else {
+   return (alert("its invalid"));
+  }
+}
+
+
+Let lol = [hey, hey, hye];
+Let lol2 = [hey, hey, hye];
+Let lol3 = [hey, hey, hye];
+Let lol4 = [hey, hey, hye];
+
+Function heya();{
+}
+
+What data types can a JSON object contain?
+Number, String, Boolean, Array, Value, Object, Whitespace, null
+
+What is minifying JavaScript Code?
+Its the process of removing all unnecessary characters from source code without changing its functionality.
+
+What is a global variable?
+A global variable is is a variable not confined to an object. 
